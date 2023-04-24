@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+				<editor sameAs="www.cwrc.ca/person/someID">Editor name</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p></p>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created by members of CWRC/CSÉC unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>
+			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+				
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
+	},
+	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?person_annotation_20190814144739",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-08-14T20:47:39.476Z",
+	"dcterms:issued": "2019-08-14T20:48:27.196Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?person_annotation_20190814144739#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?person_annotation_20190814144739#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/docAuthor/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/78272387",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:definite"
+}
+]]></rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
+	},
+	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?date_annotation_20190814144739",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-08-14T20:47:39.477Z",
+	"dcterms:issued": "2019-08-14T20:48:27.267Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?date_annotation_20190814144739#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?date_annotation_20190814144739#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/note/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1936"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:definite"
+}
+]]></rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
+	},
+	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?link_annotation_20190814144739",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-08-14T20:47:39.479Z",
+	"dcterms:issued": "2019-08-14T20:48:27.267Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?link_annotation_20190814144739#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/poem_template?link_annotation_20190814144739#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/note[3]/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "http://cufts2.lib.sfu.ca/CRDB4/BVAS/resource/5724",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
+	<text>
+		<body>
+			<div type="poem">
+				<head type="poem">
+					<title level="a">Sample Poem Title</title>
+					<title type="subtitle">Sample Subtitle</title>
+				</head>
+				<lg>
+					<l>Verse line</l><l>Verse line</l><l>Verse line</l>
+				</lg>
+				<lg>
+					<l>Verse line</l><l>Verse line</l><l>Verse line</l>
+				</lg>
+			</div>
+			<div type="poem">
+				<head type="poem">Glimpse </head>
+				<byline>Sample Poem</byline>
+				<docAuthor>by <persName cert="high" type="real" ref="http://viaf.org/viaf/78272387">Floris Clark McLaren</persName></docAuthor>
+				<lg>
+					<l>Against the blue of spruce, and the gray</l><l>Of bare-boughed poplar, suddenly</l><l>As though a snowdrift burst in scattering fragments,</l><l>Ptarmigan rise with heavy whir of wings,</l><l>Show for a moment clear among the branches,</l><l>Then disappear,</l><l>White lost on white again.</l>
+				</lg>
+				<note>McLaren, Floris Clark. Glimpse. Canadian Poetry Magazine1.1(<date cert="high" when="1936">1936</date>):23</note>
+				<note type="researchNote">This poem has a suggestion of the magical imagery of Kenneth Leslie's By Stubborn Stars.</note>
+				<note type="link">Poem featured in <ref target="http://cufts2.lib.sfu.ca/CRDB4/BVAS/resource/5724">Canada's Early Women Writers</ref>
+				</note>
+			</div>
+		</body>
+	</text>
+</TEI>

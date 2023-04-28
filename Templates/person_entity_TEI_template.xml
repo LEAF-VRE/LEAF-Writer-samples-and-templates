@@ -32,7 +32,7 @@
                <persName type="standard">
                   <name>Last Name, First Name </name>
                </persName>
-               <persName type="prefered" xml:lang="ENG">
+               <persName type="preferred" xml:lang="ENG">
                   <name type="forename">Forename</name>
                   <name type="middlename">Middle Name</name>
                   <name type="surname">Last Name</name>

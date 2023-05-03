@@ -17,6 +17,8 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+</teiHeader>
+
   <text>
       <body>
       	<head><hi rend="bold">INSTRUCTIONS FOR USING THE PERSON TEMPLATE</hi></head>
@@ -53,7 +55,7 @@
       		</list>
       		<list>
       			<head>To add additional occupations to a person entry</head>
-      			<item>Go to the Instructions file <ref target="https://github.com/LEAF-VRE/LEAF-Writer-samples-and-templates/blob/main/Templates/XTriple_person_instructions.md">here</ref></item>
+      			<item>Go to the Instructions file https://github.com/LEAF-VRE/LEAF-Writer-samples-and-templates/blob/main/Templates/XTriple_person_instructions.md</item>
       			<item>Copy code snippet from Occupation section</item>
       			<item>In LEAF-Writer, at bottom of Raw XML panel click on "Edit Raw XML"</item>
       			<item>In this window, scroll down to the location of your person entry, and paste the code snippet after the first occupation tag.

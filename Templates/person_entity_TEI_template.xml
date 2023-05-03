@@ -25,7 +25,7 @@
             Please follow these instructions for creating a TEI personography that can be used for conversion in XTriples. 
             All of your work will be done in the listPerson element structure below. Replace placeholder text with your personography information. 
             <list>
-               <head>To prepare LEAF-Writer environment for creating your personography</head>
+               <head><hi rend="bold">Preparation:</hi> To prepare LEAF-Writer environment for creating your personography</head>
                <item>In LEAF-Writer toolbar, click "Show tags" button. This will help you to see the secion you are creating.</item>
                <item>Activate the "Markup" panel on the left side of screen</item>
                <item>Activate the "Raw XML" panel on the right side of screen</item>
@@ -63,8 +63,10 @@
          </p>      
          <p><hi rend="bold">REMEMBER TO DELETE THE INSTRUCTIONS ABOVE WHEN YOU HAVE COMPLETED WORK ON THIS FILE.</hi></p>
          <p>---------------------------------</p>
-         <p> </p>
+         
+         
          <listPerson>
+            <head><hi rend="bold">Person Entity</hi></head>
             <person>
                <persName type="standard">Surname, Forename</persName>
                <persName type="preferred">
@@ -83,12 +85,12 @@
                <sex source="http://URI" value="preferredTerm">Preferred Term</sex>
                <occupation source="http://URI">Preferred Occupation Term</occupation>
                <listBibl>
-                  <head>Sources:</head>
                   <bibl>Reference title</bibl>
                </listBibl>
             </person>
          </listPerson>
          <listPerson>
+            <head><hi rend="bold">Person Entity</hi></head>            
             <person>
                <persName type="standard">Surname, Forename</persName>
                <persName type="preferred">
@@ -106,13 +108,13 @@
                </death>
                <sex source="http://URI" value="preferredTerm">Preferred Term</sex>
                <occupation source="http://URI">Preferred Occupation Term</occupation>
-               <listBibl>
-                  <head>Sources:</head>
+               <listBibl>                  
                   <bibl>Reference title</bibl>
                </listBibl>
             </person>
          </listPerson>
          <listPerson>
+            <head><hi rend="bold">Person Entity</hi></head>
             <person>
                <persName type="standard">Surname, Forename</persName>
                <persName type="preferred">
@@ -131,7 +133,6 @@
                <sex source="http://URI" value="preferredTerm">Preferred Term</sex>
                <occupation source="http://URI">Preferred Occupation Term</occupation>
                <listBibl>
-                  <head>Sources:</head>
                   <bibl>Reference title</bibl>
                </listBibl>
             </person>

@@ -32,12 +32,12 @@ There are at least two ways in which you can provide a person's name:
 * "standard" format - *Last Name, Forename(s)*, and
 * "preferred" format - nested like this:
 
-               <persName type="preferred" xml:lang="ENG">
+               <persName type="preferred">
                   <name type="forename">Forename</name>
-                  <name type="middlename">Middle Name</name>
+                  <name type="middlename">Middle or Additional Name</name>
                   <name type="surname">Surname</name>
                   <genName>(suffix: e.g. the IIIrd, senior, junior, etc.)</genName>
-                  <roleName>offical title or rank</roleName>
+                  <roleName>offical title or rank (e.g., Dr., Captain, Marchioness - if none, delete)</roleName>
                </persName>
  
 A middle name could be a birth name; if there is no middle name, suffix, or role, remove those elements from your code.
@@ -49,7 +49,7 @@ A middle name could be a birth name; if there is no middle name, suffix, or role
 If you know the birth and/or death dates of a person, add information in this format (the same for both birth and death dates):
 
                <birth>
-                  <date when="2000-10-30">D.O.B </date>
+                  <date when="2000-10-30">BirthDate or DeathDate</date>
                </birth>
 
 Provide  an international date format value (2000-10-30) in the @when attribute and a huamn-readable date (e.g., the 30th of October, 2000) in the body of the text.
@@ -77,11 +77,36 @@ Provide information about the source from which you gathered this information,
 
                <listBibl>
                   <head>Sources:</head>
-                  <bibl><ref>Orlando</ref></bibl>
-                  <bibl><ref source="https://www.wikidata.org/wiki/Q40909">Wikidata item, Virginia Woolf</ref></bibl>
+                  <bibl><ref source="https://URI">Reference title</ref></bibl>
                </listBibl>
 
 
 ----------
+## Adding additional entries (listPerson nested structure)
 
-Please follow these instructions, using this structure for each additional person. When you have completed the file and confirmed that it is valid TEI, upload your file to the [XTriples tool](https://app.xtriples.stage.lincsproject.ca/exist/apps/xtriples/index.html). Choose the Personography option, and Download file as XML or Turtle (TTL) format.
+         <listPerson>
+            <person>
+            	<persName type="standard">Surname, Forename</persName>
+               <persName type="preferred">
+                  <name type="forename">Forename</name>
+               	<name type="middlename">Middle or Additional Name - if none, delete</name>
+                  <name type="surname">Surname</name>
+               	<genName>Generational name (e.g., III, Jr. the Younger - if not, delete)</genName>
+               </persName>
+               <birth>
+                  <date when="1234">BirthDate</date>
+               </birth>
+               <death when="1234">
+                  <date>DeathDate</date>
+               </death>
+               <sex source="http://URI" value="preferredTerm">Preferred Term</sex>
+               <occupation source="http://URI">Preferred Occupation Term</occupation>
+            	<listBibl>
+            		<head>Sources of information</head>
+            		<bibl><ref>SOURCE</ref></bibl>
+            		<bibl><ref source="https://URI">Reference</ref></bibl>
+            	</listBibl>
+            </person>
+         </listPerson>
+
+Please follow these instructions, using this structure for each additional person. When you have completed the file and confirmed that it is valid TEI, save (if you're working in LEAF-Writer Commons, download as XML file), and then upload your file to the [XTriples tool](https://app.xtriples.stage.lincsproject.ca/exist/apps/xtriples/index.html). Choose the Personography option, and Download file as XML or Turtle (TTL) format.

@@ -61,7 +61,7 @@
       			</item>
       		</list>     		
       	</p>      
-         <p>REMEMBER TO DELETE THE INSTRUCTIONS ABOVE WHEN YOU HAVE COMPLETED WORK ON THIS FILE.</p>
+         <p><hi rend="bold">REMEMBER TO DELETE THE INSTRUCTIONS ABOVE WHEN YOU HAVE COMPLETED WORK ON THIS FILE.</hi></p>
          <p>---------------------------------</p>
          <p> </p>
          <listPerson>
@@ -84,7 +84,7 @@
                <occupation source="http://URI">Preferred Occupation Term</occupation>
             	<listBibl>
             		<head>Sources:</head>
-            		<bibl><ref source="https://URI">Reference title</ref></bibl>
+            		<bibl>Reference title</bibl>
             	</listBibl>
             </person>
          </listPerson>
@@ -108,7 +108,7 @@
                <occupation source="http://URI">Preferred Occupation Term</occupation>
                <listBibl>
                   <head>Sources:</head>
-                  <bibl><ref source="https://URI">Reference title</ref></bibl>
+                  <bibl>Reference title</bibl>
                </listBibl>
             </person>
          </listPerson>
@@ -132,7 +132,7 @@
                <occupation source="http://URI">Preferred Occupation Term</occupation>
                <listBibl>
                   <head>Sources:</head>
-                  <bibl><ref source="https://URI">Reference title</ref></bibl>
+                  <bibl>Reference title</bibl>
                </listBibl>
             </person>
          </listPerson>

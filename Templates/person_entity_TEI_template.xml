@@ -89,6 +89,8 @@
                </listBibl>
             </person>
          </listPerson>
+         <p>---------------------------------</p>
+         
          <listPerson>
             <head><hi rend="bold">Person Entity</hi></head>            
             <person>
@@ -113,6 +115,8 @@
                </listBibl>
             </person>
          </listPerson>
+         <p>---------------------------------</p>
+         
          <listPerson>
             <head><hi rend="bold">Person Entity</hi></head>
             <person>

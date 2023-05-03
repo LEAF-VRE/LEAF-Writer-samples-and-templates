@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/main/CSS/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+      	<head><hi rend="bold">INSTRUCTIONS FOR USING THE PERSON TEMPLATE</hi></head>
+      	<p>
+      		Please follow these instructions for creating a TEI personography that can be used for conversion in XTriples. 
+      		All of your work will be done in the listPerson element structure below. Replace placeholder text with your personography information. 
+      		<list>
+      			<head>To prepare LEAF-Writer environment for creating your personography</head>
+      			<item>In LEAF-Writer toolbar, click "Show tags" button. This will help you to see the secion you are creating.</item>
+      			<item>Activate the "Markup" panel on the left side of screen</item>
+      			<item>Activate the "Raw XML" panel on the right side of screen</item>
+      		</list>
+      		<list>
+      			<head>Person URI: To provide a URI for person from existing authority source:</head>
+      			<item>Right-click (control-click) on the standard persName element</item>
+      			<item>Choose "Convert to Entity Annotation"; from lookup, choose the authority file that aligns with your research</item>
+      		</list>
+      		<list>
+      			<head>Birth/Death Information: to add a machine-readable date value:</head>
+      			<item>Right-click (control-click) on the birth/date or death/date element</item>
+      			<item>Replace when="1234" with a date in YYYY-MM-DD format</item>
+      		</list>
+      		<list>
+      			<head>Sex/Gender URI: To add authority term for sex element</head>
+      			<item>Right-click (control-click) on the sex element</item>
+      			<item>Choose "Edit tag"; for value attribute, type your preferred term; for source attribute, input the URI for a vocabulary that aligns with your research</item>
+      			<item>Note that you will need to replace placeholder text within those attribute fields</item>
+      		</list>
+      		<list>
+      			<head>Occupation URI: To add authority term for occupation element</head>
+      			<item>Right-click (control-click) on the sex element</item>
+      			<item>Choose "Edit tag"; for source attribute, input the URI for a vocabulary that aligns with your research</item>
+      			<item>Note that you will need to replace placeholder text within those attribute fields</item>		
+      		</list>
+      		<list>
+      			<head>To add additional occupations to a person entry</head>
+      			<item>Go to the Instructions file <ref target="https://github.com/LEAF-VRE/LEAF-Writer-samples-and-templates/blob/main/Templates/XTriple_person_instructions.md">here</ref></item>
+      			<item>Copy code snippet from Occupation section</item>
+      			<item>In LEAF-Writer, at bottom of Raw XML panel click on "Edit Raw XML"</item>
+      			<item>In this window, scroll down to the location of your person entry, and paste the code snippet after the first occupation tag.
+      			</item>
+      		</list>
+      		
+      	</p>         
+         <listPerson>
+            <person>
+            	<persName type="standard">Surname, Forename</persName>
+               <persName type="preferred">
+                  <name type="forename">Forename</name>
+               	<name type="middlename">Middle or Additional Name - if none, delete</name>
+                  <name type="surname">Surname</name>
+               	<genName>Generational name (e.g., III, Jr. the Younger - if none, delete)</genName>
+               	<roleName>offical title or rank (e.g., Dr., Captain, Marchioness - if none, delete)</roleName>
+               </persName>
+               <birth>
+                  <date when="1234">BirthDate</date>
+               </birth>
+               <death when="1234">
+                  <date>DeathDate</date>
+               </death>
+               <sex source="http://URI" value="preferredTerm">Preferred Term</sex>
+               <occupation source="http://URI">Preferred Occupation Term</occupation>
+            	<listBibl>
+            		<head>Sources:</head>
+            		<bibl><ref source="https://URI">Reference title</ref></bibl>
+            	</listBibl>
+            </person>
+         </listPerson>
+      </body>
+  </text>
+</TEI>

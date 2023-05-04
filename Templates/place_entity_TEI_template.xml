@@ -1,103 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/main/CSS/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Place standard name</title>
+            <title>Place Entity Template</title>
          </titleStmt>
          <publicationStmt>
-            <publisher>Canadian Writing Research Collaboratory (CWRC)</publisher>
+            <publisher>Linked Editing Academic Framework (LEAF) and the Canadian Writing Research Collaboratory</publisher>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/legalcode">
                   <p/>
                </licence>
             </availability>
          </publicationStmt>
-         <notesStmt>
-            <note>Place entity record</note>
-         </notesStmt>
          <sourceDesc>
-            <p>born digital</p>
+            <p>This place entity template is made available for general use, and is particularly valuable for use within the LEAF-Writer encoding environment (https://leaf-writer.leaf-vre.org/)</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <listPlace>
-            <place xml:id="PID_entity_record">
-                  <placeName type="standard">
-                     <name>CWRC Place Entity, Test</name>
-                  </placeName>
-                  <placeName type="prefered" xml:lang="ENG">
-                     <name type="full">Test CWRC Place Entity</name>
-                  </placeName>
-                  <placeName type="variant" xml:lang="ENG">
-                     <name type="deprecated">Old name for the place</name>
-                     <note>
-                        <label>Named prefered by: </label>
-                        <desc>
-                           <orgName ref="URI">Name of the project that uses the variant
-                              name</orgName>
-                        </desc>
-                     </note>
-                  </placeName>
-                     <event type="establishment" source="https://www.w3.org/TR/NOTE-datetime" from="2017-01" cert="high" >
-                        <desc><placeName ref="URI">Place Name</placeName><desc>Note about the establishment</desc>
-                        </desc>
-                     </event>
-               <event type="dissolution" source="https://www.w3.org/TR/NOTE-datetime" to="2017-09-01" cert="high">
-                       <desc>Note about disolution</desc>
-                     </event>
-                     <trait type="factuality" cert="high" ref="Ontology">
-                        <ab>real/fictional
-                           <!--form should contain a dropdown with three options: real, fictional, both, unknown--></ab>
-                     </trait>
-                     <trait type="placeType" cert="high" ref="OntologyURL">
-                        <ab/>
-                     </trait>
+         
+         <head><hi rend="bold">INSTRUCTIONS FOR USING THE PLACE TEMPLATE</hi></head>
+         <p>
+            Please follow these instructions for creating a TEI placeography that can be used for conversion in XTriples. 
+            All of your work will be done in the listPerson element structure below. Replace placeholder text with your personography information. </p>
+         
+         <list>
+            <head><hi rend="bold">Preparation:</hi> To prepare LEAF-Writer environment for creating your personography</head>
+            <item>In LEAF-Writer toolbar, click "Show tags" button. This will help you to see the secion you are creating.</item>
+            <item>Activate the "Markup" panel on the left side of screen</item>
+            <item>Activate the "Raw XML" panel on the right side of screen</item>
+         </list>
+         <list>
+            <head><hi rend="bold">Place URI:</hi> To provide a URI for place from existing authority source:</head>
+            <item>Right-click (control-click) on the standard placeName element</item>
+            <item>Choose "Convert to Entity Annotation"; from lookup, choose the authority file that aligns with your research</item>
+         </list>
+
+         <p><hi rend="bold">REMEMBER TO DELETE THE INSTRUCTIONS ABOVE WHEN YOU HAVE COMPLETED WORK ON THIS FILE.</hi></p>
+         <p>---------------------------------</p>
                   
-                  <location>
-                     <address>
-                        <addrLine>Postal address (optional)</addrLine>
-                        <country ref="ISO 3166-1" cert="high">Three letter code for country, picked from dropdown</country>
-                        <region cert="high">Region name</region>
-                        <addrLine/>
-                     </address>
-                     <geo decls="#WGS">53.226658 -0.541254</geo>
-                  </location>
-                  <note type="general" xml:lang="ENG"> This is a general note about the place.</note>
-                  <note type="project-specific" xml:lang="ENG">
-                     <note>This is a project-specific note about the place.</note>
-                     <respons locus="value">
-                        <desc>
-                           <orgName ref="URI">Project (e.g.CWRC, REED, Orlando)</orgName>
-                        </desc>
-                     </respons>
-                  </note>
-                  <listBibl>
-                     <head>Sources:</head>
-                     <bibl><title></title><ref source="WorldCat" target="Resource_URI"></ref></bibl>
-                  </listBibl>
-                  <note type="resp_statement">
-                     <respons locus="value">
-                        <desc> 
-                           <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-06"/>
-                           <persName ref="URI-to-user-record">User real name</persName>
-                        </desc>
-                     </respons>
-                     <respons locus="value">
-                        <desc> 
-                           <date type="modified" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-07"/>
-                           <persName ref="URI-to-user-record">User real name</persName>
-                        </desc>
-                     </respons>
-                  </note>
-               <idno type="Authority_name" cert="high"/>
-
-
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place>
+               <placeName type="standard">Standard Name of Place</placeName>
+               <placeName type="preferred">
+                  <name type="full">Preferred Name of Place as aligned with your research</name>
+               </placeName>
+               <placeName type="variant">
+                  <name type="variant">A variant form of the place name by which it also might be known</name>
+               </placeName>
+               <placeName type="deprecated">
+                  <name type="deprecated">A deprecated or historical form of the place name that is no longer in use</name>
+               </placeName>
+               <location>
+                  <address>
+                     <addrLine>Postal address (optional)</addrLine>
+                     <country ref="ISO 3166-1" cert="high">Three letter code for country, optional</country>
+                     <region cert="high">Region name</region>
+                     <addrLine/>
+                  </address>
+                  <geo decls="#WGS">Add latitude and longitude in decimal format (53.226658 -0.541254)</geo>
+               </location>
+               <idno type="URI">Replace with the URI for an authority that provides a @sameAs relationship to your place</idno>
+            </place>
+         </listPlace>
+         <p>---------------------------------</p>
+         
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place>
+               <placeName type="standard">Standard Name of Place</placeName>
+               <placeName type="preferred">
+                  <name type="full">Preferred Name of Place as aligned with your research</name>
+               </placeName>
+               <placeName type="variant">
+                  <name type="variant">A variant form of the place name by which it also might be known</name>
+               </placeName>
+               <placeName type="deprecated">
+                  <name type="deprecated">A deprecated or historical form of the place name that is no longer in use</name>
+               </placeName>
+               <location>
+                  <address>
+                     <addrLine>Postal address (optional)</addrLine>
+                     <country ref="ISO 3166-1" cert="high">Three letter code for country, optional</country>
+                     <region cert="high">Region name</region>
+                     <addrLine/>
+                  </address>
+                  <geo decls="#WGS">Add latitude and longitude in decimal format (53.226658 -0.541254)</geo>
+               </location>
+               <idno type="URI">Replace with the URI for an authority that provides a @sameAs relationship to your place</idno>
             </place>
          </listPlace>
       </body>

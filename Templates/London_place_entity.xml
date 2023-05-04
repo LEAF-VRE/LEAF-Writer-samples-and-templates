@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/main/CSS/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Place Entity Template</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Linked Editing Academic Framework (LEAF) and the Canadian Writing Research Collaboratory</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <p/>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This place entity template is made available for general use, and is particularly valuable for use within the LEAF-Writer encoding environment (https://leaf-writer.leaf-vre.org/)</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <head><hi rend="bold">INSTRUCTIONS FOR USING THE PLACE TEMPLATE</hi></head>
+         <p>
+            Please follow these instructions for creating a TEI placeography that can be used for conversion in XTriples. 
+            All of your work will be done in the listPerson element structure below. Replace placeholder text with your personography information. </p>
+         
+         <list>
+            <head><hi rend="bold">Preparation:</hi> To prepare LEAF-Writer environment for creating your personography</head>
+            <item>In LEAF-Writer toolbar, click "Show tags" button. This will help you to see the secion you are creating.</item>
+            <item>Activate the "Markup" panel on the left side of screen</item>
+            <item>Activate the "Raw XML" panel on the right side of screen</item>
+         </list>
+         <list>
+            <head><hi rend="bold">Place URI:</hi> To provide a URI for place from existing authority source:</head>
+            <item>Right-click (control-click) on the standard placeName element</item>
+            <item>Choose "Convert to Entity Annotation"; from lookup, choose the authority file that aligns with your research</item>
+         </list>
+
+         <p><hi rend="bold">REMEMBER TO DELETE THE INSTRUCTIONS ABOVE WHEN YOU HAVE COMPLETED WORK ON THIS FILE.</hi></p>
+         <p>---------------------------------</p>
+                  
+
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place type="http://id.lincsproject.ca/eml/Street">
+               <placeName type="standard" ref="reed:e6f2c2a0-b651-4978-989a-8f4039e8b705">Aldersgate Street</placeName>
+               <placeName type="preferred">
+                  <name type="full">Aldersgate Street</name>
+               </placeName>
+               <location>
+                  <address>
+                     <country ref="SO 3166-1">GBR</country>
+                     <region/>
+                  </address>
+                  <geo decls="#WGS">51.51871824	-0.097111351</geo>
+               </location>
+               <idno type="URI">https://mapoflondon.uvic.ca/ALDE4</idno>
+               <idno type="URI">https://ereed.library.utoronto.ca/eats/entity/229509/</idno>
+            </place>
+         </listPlace>
+         <p>---------------------------------</p>
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place type="http://id.lincsproject.ca/eml/Church">
+               <placeName ref="reed:f01a6ed9-1532-400c-9235-cb83182f8b6b" type="standard">All Hallows Barking</placeName>
+               <placeName type="preferred">
+                  <name type="full">Church of All Hallows Barking</name>
+               </placeName>
+               <location>
+                  <address>
+                     <country ref="SO 3166-1">GBR</country>
+                     <region/>
+                  </address>
+                  <geo decls="#WGS">51.50937332	-0.079357305</geo>
+               </location>
+               <idno type="URI">https://ereed.library.utoronto.ca/eats/entity/229547/</idno>
+            </place>
+         </listPlace>
+         <p>---------------------------------</p>
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place type="http://id.lincsproject.ca/eml/Hall">
+               <placeName ref="reed:60d609fd-a695-4ee1-a987-ad3f73082887" type="standard">Bakers' Hall</placeName>
+               <placeName type="preferred">
+                  <name type="full">Bakers' Hall</name>
+               </placeName>
+               <placeName type="deprecated">
+                  <name type="deprecated">Ye Olde Bakers Hall</name>
+               </placeName>
+               <location>
+                  <address>
+                     <country ref="SO 3166-1">GBR</country>
+                     <region/>
+                  </address>
+                  <geo decls="#WGS">51.50970094	-0.081616744</geo>
+               </location>
+               <idno type="URI">https://ereed.library.utoronto.ca/eats/entity/231542/</idno>
+               <idno type="URI">https://mapoflondon.uvic.ca/BAKE1</idno>
+            </place>
+         </listPlace>
+         <p>---------------------------------</p>
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place type="http://id.lincsproject.ca/eml/Arena">
+               <placeName ref="reed:9bed4724-73d6-4021-ae3e-bf9a2a618012" type="standard">Bear Garden</placeName>
+               <placeName type="preferred">
+                  <name type="full">Preferred Name of Place as aligned with your research</name>
+               </placeName>
+               <placeName type="variant">
+                  <name type="variant">Beare Garden</name>
+               </placeName>
+               <location>
+                  <address>
+                     <country ref="SO 3166-1">GBR</country>
+                     <region/>
+                  </address>
+                  <geo decls="#WGS">51.50745202	-0.096502474</geo>
+               </location>
+               <idno type="URI">https://wikidata.org/Q4876722</idno>
+               <idno type="URI">https://mapoflondon.uvic.ca/BEAR1</idno>
+            </place>
+         </listPlace>
+         <p>---------------------------------</p>
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place type="http://id.lincsproject.ca/eml/Playhouse">
+               <placeName ref="reed:d18b9e1e-33a2-404a-a9ee-6e276e2d1097" type="standard">Blackfriars Playhouse</placeName>
+               <placeName type="deprecated">
+                  <name type="deprecated">Blacke Freares</name>
+               </placeName>
+               <location>
+                  <address>
+                     <country ref="SO 3166-1">GBR</country>
+                     <region/>
+                  </address>
+                  <geo decls="#WGS">51.512114	-0.103713</geo>
+               </location>
+               <idno type="URI">https://wikidata.org/Q880830</idno>
+               <idno type="URI">https://mapoflondon.uvic.ca/BLAC6</idno>
+               <idno type="URI">https://ereed.library.utoronto.ca/eats/entity/226411/</idno>
+            </place>
+         </listPlace>
+         <p>---------------------------------</p>
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place type="http://id.lincsproject.ca/eml/Street">
+               <placeName ref="reed:d0e69184-2785-4d47-87c5-4de4065b77ff" type="standard">Chancery Lane</placeName>
+               <placeName type="variant">
+                  <name type="variant">Chancery</name>
+               </placeName>
+               <location>
+                  <address>
+                     <country ref="SO 3166-1">GBR</country>
+                     <region/>
+                  </address>
+                  <geo decls="#WGS">51.51599	-0.111922</geo>
+               </location>
+               <idno type="URI">https://wikidata.org/Q404351</idno>
+               <idno type="URI">https://mapoflondon.uvic.ca/CHAN1</idno>
+            </place>
+         </listPlace>
+         <p>---------------------------------</p>
+         <listPlace>
+            <head><hi rend="bold">Place Entity</hi></head>
+            <place type="http://id.lincsproject.ca/eml/InnOfCourt">
+               <placeName ref="reed:cae29296-ecd6-4e89-a10d-a4750fb2486b" type="standard">Clement’s Inn</placeName>
+               <placeName type="variant">
+                  <name type="variant">The Inn of Clement</name>
+               </placeName>
+               <location>
+                  <address>
+                     <country ref="SO 3166-1">GBR</country>
+                     <region/>
+                  </address>
+                  <geo decls="#WGS">51.51390408	-0.115573772</geo>
+               </location>
+               <idno type="URI">https://wikidata.org/Q26714046</idno>
+               <idno type="URI">https://mapoflondon.uvic.ca/CLEM1</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
+																	

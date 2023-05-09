@@ -68,10 +68,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?date_annotation_20230509142715269",
+	"id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?date_annotation_20230509142715269",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-05-09T18:27:15.269Z",
-	"dcterms:modified": "2023-05-09T18:27:15.269Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -82,10 +81,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?date_annotation_20230509142715269#Target",
+		"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?date_annotation_20230509142715269#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml",
+			"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -96,7 +95,7 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?date_annotation_20230509142715269#Selector",
+			"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?date_annotation_20230509142715269#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/closer/date/date"
 		}
@@ -146,10 +145,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?place_annotation_20230509143318137",
+	"id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?place_annotation_20230509143318137",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-05-09T18:33:18.137Z",
-	"dcterms:modified": "2023-05-09T18:33:18.137Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -160,10 +158,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?place_annotation_20230509143318137#Target",
+		"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?place_annotation_20230509143318137#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml",
+			"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -174,7 +172,7 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_exercise.xml?place_annotation_20230509143318137#Selector",
+			"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?place_annotation_20230509143318137#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -191,7 +189,87 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
 	},
+	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?organization_annotation_20230509143956525",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-05-09T18:39:56.525Z",
+	"dcterms:modified": "2023-05-09T18:39:56.525Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?organization_annotation_20230509143956525#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-Writer-samples-and-templates/main/Samples/Sample%20Congress%20letter.xml?organization_annotation_20230509143956525#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/orgName/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q11268",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -215,7 +293,7 @@
 					right
 			</p>
 			<p>And they pray further that they may be permitted in person, and in behalf of the
-				thousands of other women who are petitioning <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268">Congress</orgName> to the same effect to be heard
+				thousands of other women who are petitioning <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268"><orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268">Congress</orgName></orgName> to the same effect to be heard
 				upon this Memmoiral before the Senate and House at an early day in the present
 				Session.</p>
 			<p>We ask your Honorable Body to bear in mind that while men are represented on the

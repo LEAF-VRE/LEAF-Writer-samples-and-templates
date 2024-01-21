@@ -282,7 +282,7 @@
 	</teiHeader>
 	<text>
 		<body>
-			<pb facs="https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Congress_Letter/congress_letter_image1.jpg"/>
+			<pb facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/Congress_Letter/congress_letter_image1.jpg"/>
 
 			<opener>To the Honorable the Senate and House of Representatives of the <placeName key="United States  United States" ref="https://geonames.org/6252001">United States</placeName> in
 				Congress Assembled:</opener>

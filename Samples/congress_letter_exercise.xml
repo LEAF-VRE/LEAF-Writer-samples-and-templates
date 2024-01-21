@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others
+					in Support of Women's Right to Vote in the United States, 1871</title>
+				<author>Elizabeth Cady Stanton </author>
+					<author>Isabella Beecher Hooker </author>
+					<author>Elizabeth S. Bladen</author> 
+					<author>Olympia Brown </author>
+					<author>Susan B. Anthony </author>
+					<author>Josephine S. Griffing</author>
+				<respStmt>
+					<name>
+						<orgName>(U.S.) National Archives</orgName>
+					</name>
+					<resp>Publisher</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>National Archives</distributor>
+				<availability>
+					<licence>Public Domain</licence>
+				</availability>
+					<idno type="custom">National Archives Identifier https://catalog.archives.gov/id/1634184</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<p>This primary source comes from the Records of the U.S. Senate. National Archives
+					Identifier: 1634184 Full Citation: Letter to the United States Congress from
+					Elizabeth Cady Stanton and Susan B. Anthony and Others in Support of Women's
+					Suffrage; 12/1871; Petition and Memorials, Resolutions of State Legislatures,
+					and Related Documents which were Referred to the Committee on the Judiciary
+					during the 42nd Congress; (SEN 42A-H11.4); Committee Papers, 1816 - 2011;
+					Records of the U.S. Senate, Record Group 46; National Archives Building,
+					Washington, DC. [Online Version,
+					https://www.docsteach.org/documents/document/congress-stanton-anthony, last accessed 19 February 2023]</p>
+			</sourceDesc>
+		</fileDesc>
+<encodingDesc>
+			<projectDesc>
+				<p>This encoded file was created by Diane Jakacki and made available for a Linked
+					Editing Academic Framework (LEAF) / LEAF-Writer workshop. This file is not meant for
+					use or publication outside of the workshop environment.</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/Congress_Letter/congress_letter_image1.jpg"/>
+
+			<opener>To the Honorable the Senate and House of Representatives of the United States in
+				Congress Assembled:</opener>
+			<p>The undersigned, Citisens of the United States, believing that under the present
+					Federal Constitution all women who are citisens of the United States have the
+					right to vote, pray your Honorable Body to
+				enact a law during the present session that shall assist and protect them in the exercise of that
+					right
+			</p>
+			<p>And they pray further that they may be permitted in person, and in behalf of the
+				thousands of other women who are petitioning Congress to the same effect to be heard
+				upon this Memmoiral before the Senate and House at an early day in the present
+				Session.</p>
+			<p>We ask your Honorable Body to bear in mind that while men are represented on the
+				floor of Congress and so may be said to be heard there, women
+				who are allowed no vote and therefore no representation cannot truly be heard except
+				as Congress shall open its doors to us in person.</p>
+			<closer>
+				<signatures>Elizabeth Cady Stanton 
+				Isabella Beecher Hooker 
+				Elizabeth S. Bladen 
+				Olympia Brown 
+				Susan B. Anthony 
+				Josephine S. Griffing</signatures> 
+				Hartford Conn. Dec. 1871</closer>
+		</body>
+	</text>
+</TEI>

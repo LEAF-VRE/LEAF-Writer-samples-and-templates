@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Prose Document (TEI All)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Collaboratory for Writing and Research on Culture (CWRC https://cwrc.ca) and Linked Editing Academic Framework (LEAF https://leaf-vre.org).</publisher>
+				<availability>
+					<licence>Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>This template was created by members of CWRC and LEAF.</p>				
+			</sourceDesc>		
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This template is made available for use with the LEAF-Writer semantic editor.</p>
+			</projectDesc>		
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2025-06-04" who="diane_jakacki">Revised prose template for use with LEAF-Writer editor.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="prose">
+				<head>Sample Title</head>
+				<p>Sample paragraph #1.</p>
+			<p>Sample paragraph #2.</p>
+			</div>
+		
+		</body>
+	</text>
+</TEI>

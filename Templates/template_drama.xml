@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Drama Template</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Collaboratory for Writing and Research on Culture (CWRC https://cwrc.ca) and Linked Editing Academic Framework (LEAF https://leaf-vre.org).</publisher>
+            <availability>
+               <licence>Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This template was created by members of CWRC and LEAF.</p>				
+         </sourceDesc>		
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This template is made available for use with the LEAF-Writer semantic editor.</p>
+         </projectDesc>		
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-05" who="diane_jakacki">Created drama template for use with LEAF-Writer editor.</change>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="act">
+            <head>Act #</head>
+            <div type="scene">
+               <head>Scene #</head>
+               <stage>A stage direction of some kind</stage>
+            <sp>
+               <speaker>Speaker 1</speaker>
+               <ab>Some dialogue.</ab>
+            </sp>
+               <sp>
+                  <speaker>Speaker 2</speaker>
+                  <ab>Some dialogue.</ab>
+               </sp>
+               <sp>
+                  <speaker>Speaker 1</speaker>
+                  <ab>Some dialogue.</ab>
+               </sp>
+               <sp>
+                  <speaker>Speaker 2</speaker>
+                  <ab>Some dialogue.</ab>
+               </sp>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
